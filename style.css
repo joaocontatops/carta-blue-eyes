@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.wrapper {
+    width:  100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(https://i.pinimg.com/originals/c5/68/8d/c5688daa3280885cdd57db9fd2d4be5a.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.update{
+    position: absolute;
+    background-image: url(./assets/seto-kaiba.png);
+    background-position: center center;
+    background-size: cover;
+    background-color: #adc3e3;
+    width: 300px;
+    height: 400px;
+    left: 4%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.h2-update{
+    background-color: black;
+}
+
+ul{
+    background-color: white;
+    width: 80%;
+    height: 33%;
+}
+
+li{
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin-left: 8%;
+}
+.kaiba-back{
+    position: absolute;
+    z-index: 1;
+    bottom: 39.3%;
+    left: 32%;
+    width: 10%;
+}
+
+.rarity{
+    position: absolute;
+    z-index: 4;
+    width: 70px;
+    height: 25px;
+    border-color: red solid 10px;
+    background-image: url(./assets/rarity-card.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px;
+    top: 1.6%;
+    left: 60%;
+}
+
+.card{
+    height: 600px;
+    width: 400px;
+    background-color: grey;
+    background-image: url(https://33.media.tumblr.com/28fe099f90cc0e336665baf6dd1b6473/tumblr_nabl83XPqd1r4xsuho1_500.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px, 10px, 15px;
+    margin-top: 35px;
+    position: absolute;
+    z-index: 3;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    background-image : url(https://i.pinimg.com/736x/80/60/4b/80604b9b7ddfe74bff3d48e63f6e2e71.jpg); 
+    background-position: center center;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header{
+    margin-top: 20px;
+    height: 45px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: outset;
+    border-color: #f5f1db;
+    box-shadow: 3px 3px 5px;
+}
+h2{
+    color: #ffffff;
+    font-size: larger;
+}
+
+h2 span {
+    font-size: 2rem;
+}
+.element{
+    width: 30px ;
+    height: 30px ;
+    background-color: rgb(198, 189, 206);
+    border-radius: 50%;
+    background-image: url("https://i.pinimg.com/736x/dc/85/83/dc85834ecb6064070a3299aa0ddda7a4.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+figure {
+    margin-top: 10px;
+    height: 60%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px outset rgb(223, 217, 225);
+    background-image: url(https://i.pinimg.com/originals/de/37/ac/de37acc23a1971294a020fffca413867.gif);
+}
+.bg-figure{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(https://i.pinimg.com/originals/bb/6e/f7/bb6ef71eb4fd61bc03ce1adde34ffbf2.gif);
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.circle img {
+    height: auto;
+    width: 100%;
+    top: 40px;
+}
+.character {
+    height: 80%;
+    width: auto;
+    position: absolute;
+    top: 14px;
+
+}
+.character img{
+    width: auto;
+    height: 110%;
+  
+}
+
+.star-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    height: 30px;
+    width: 280px;
+}
+
+.star{
+    width: 25px;
+    height: 25px;
+    background-image: url("./assets/star-card.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.description-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 120px;
+    width: 330px;
+    border: 7px ridge #dcd9cd;
+    background-image: linear-gradient(to bottom right,#dad8cc, #b6b6b1,#659c9e,#adc3e3,#78cad1);
+    
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: rgba(245, 234, 234, 0.755);
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px black;
+    z-index: 3;
+}
+.s1 {
+    top:75.9%;
+    left:8.8%;
+
+}
+.s2 {
+    top:75.8%;
+    right:9%;
+}
+.s3 {
+    bottom:4.2%;
+    right:9%;
+}
+.s4 {
+    bottom:4.2%;
+    left:8.8%;
+}
+
+.description-content{
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    width: 100%;
+    border: brown;
+}
+
+.points-container{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.type{
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.atak{
+    font-weight: bold;
+
+}
+
+.description{
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: smaller;
+
+}
+
+hr{ 
+    width:100%; height: 1px; background: #000000;
+    
+}
